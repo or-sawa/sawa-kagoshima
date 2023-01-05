@@ -362,6 +362,21 @@ a {
   letter-spacing: 0.8px;
 }
 
+/* キャリア相談 */
+.searchBtn {
+  margin: 24px auto;
+  width: 90%;
+  background: #06c755;
+  border-radius: 10px;
+  box-shadow: 0 3px 0 #16a085
+}
+
+.searchBtn a {
+  display: block;
+  padding: 16px;
+  color: #fff
+}
+
 @media only screen and (min-width: 600px) {
   .l_container-sm {
     padding: 0;
