@@ -24,8 +24,8 @@ if( !empty($_POST['btn_confirm']) ) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="株式会社Sawaは、ただのエージェントではなく、キャリアをデザインするデザインカンパニーです。「働くを夢中に。」という理念のもと、本質的な価値を創り続けます。">
   <meta name="keywords" content="株式会社Sawa,求人,転職,鹿児島,保育園,介護,看護,個室ジム,パーソナルトレーナー">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
   <link rel="icon" href="">
   <meta name="theme-color" content="#ffffff">
   <meta property="og:title" content="株式会社Sawa">

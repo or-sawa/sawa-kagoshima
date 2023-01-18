@@ -1,5 +1,12 @@
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
+:root {
+  --primary: #0d6efd;
+  --dark: #21252f;
+  --body: #888;
+  --box-shadow: 0 8px 22px rgba(0, 0, 0, .2)
+}
+
 body {
   margin:0;
 }
@@ -375,6 +382,26 @@ a {
   display: block;
   padding: 16px;
   color: #fff
+}
+
+.footer-top {
+  padding: 90px;
+  background-color: var(--dark)
+}
+.footer-top a {
+  color: var(--body)
+}
+.footer-top a:hover {
+  color: #fff
+}
+#copyright {
+  text-align: center;
+  font-family: 'KozuGoPr6N';
+  color: #fff;
+  background-color: var(--dark);
+  font-size: 12px;
+  padding: 10px 0;
+  letter-spacing: 0.2em
 }
 
 @media only screen and (min-width: 600px) {

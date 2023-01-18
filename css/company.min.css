@@ -1,0 +1,1098 @@
+@media(max-width:767px){
+  body{
+      font-size: 12px;
+  }
+  .container{
+      padding: 0px 10px;
+  }
+  .row-eq-height{
+      margin-left: -10px;
+      margin-right: -10px;
+  }
+  #navigation .container{
+      padding: 0px;
+  }
+  #navigation{
+      position: relative;
+  }
+  #navigation .navbar-toggle {
+      margin-right: 0px;
+      float: left;
+  }
+  #navigation .navbar-brand{
+      float: left;
+  }
+  #navigation .navbar-nav>li{
+      margin: 0px;
+  }
+  #navigation .navbar-nav>li>a{
+      background-color: #f5f5f5;
+      color: #000;
+      font-size: 14px;
+      padding: 25px;
+  }
+  #navigation .navbar-nav>li>a:after{
+      background-image: url(../images/icon_right_black.png);
+  }
+  #navigation .tel{
+      float: right;
+      text-align: center;
+      letter-spacing: 0.1em;
+      font-size: 14px;
+      padding: 5px;
+      background-color: #e6e656;
+  }
+  #navigation .tel p{
+      margin-bottom: 0px;
+  }
+  #navigation .navbar-toggle .icon-bar{
+      background-color: #333;
+  }
+  #navigation .navbar-nav{
+      float: none;
+      position: relative;
+      margin-bottom: 0px;
+  }
+  #mainvisual{
+      background-image: url(../images/sp/mainvisual.jpg);
+      background-size: 100% auto;
+      background-position: top center;
+      height: auto;
+  }
+  #mainvisual .bubble{
+      right: auto;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+  }
+  #mainvisual .bubble li{
+      font-size: 8px;
+      padding: 5px 10px;
+      letter-spacing: 0.5em;
+      border-width: 1px;
+      margin: 0px;
+      min-width: 0px;
+      position: absolute;
+  }
+  #mainvisual .bubble li:after {
+      content: "";
+      position: absolute;
+      bottom: -27px;
+      left: 50%;
+      margin-left: -16px;
+      border: 13px solid transparent;
+      border-top: 13px solid #000;
+      z-index: 1;
+  }
+  #mainvisual .bubble li a:after{
+      width: 3.5px;
+      height: 7px;
+  }
+  #mainvisual .bubble li:first-child{
+      left: 9%;
+      top: 6.5%;
+  }
+  #mainvisual .bubble li:nth-child(2) {
+      top: 13%;
+      left: 30%;
+  }
+  #mainvisual .bubble li:last-child{
+      right: 15%;
+      top: 5.5%;
+  }
+  #mainvisual h1{
+      font-size: 21px;
+      margin-top: 280px;
+      font-family: 'KozGoPr6N Bold';
+  }
+  #mainvisual .search-form{
+      position: absolute;
+      bottom: 30px;
+      right: 0px;
+  }
+  #mainvisual .search-form .select{
+      float: none;
+      margin-bottom: 15px;
+      width: 200px;
+      margin-right: 0px;
+  }
+  #mainvisual .search-form .icon{
+      display: none;
+  }
+  #mainvisual .search-form .select:after{
+      top: 17.5px;
+  }
+  #mainvisual .search-form .search-submit{
+      float: none;
+      margin-left: 0px;
+  }
+  #mainvisual .search-form .search-submit input{
+      font-size: 14px;
+      line-height: 18px;
+  }
+  #mainvisual .search-form .search-submit:after{
+      top: 12.5px;
+  }
+  #news h2{
+      line-height: 32px;
+      font-size: 14px;
+  }
+  #news h2:after {
+      border-top: 16px solid transparent;
+      border-bottom: 16px solid transparent;
+  }
+  #news .news-title{
+      width: calc(100% - 120px);
+      height: 32px;
+  }
+  #news .news-title a{
+      font-size: 14px;
+      padding-left: 20px;
+      display: block;
+      line-height: 32px;
+  }
+  #news .news-title a:after{
+      width: 3.5px;
+      height: 7px;
+      top: 7.5px;
+  }
+  .top-search h2{
+      font-size: 24px;
+      margin-bottom: 15px;
+  }
+  #search-by-occupation ul{
+      margin: 0px;
+  }
+  #search-by-occupation ul li{
+      width: 50%;
+      margin-left: 0px;
+      margin-bottom: 10px;
+  }
+  #search-by-occupation ul li a{
+      background-size: 100%;
+      /*height: 46vw;*/
+      padding-top: 0px;
+  }
+  #search-by-occupation ul li a h3{
+      font-size: 18px;
+      margin-bottom: 5px;
+      margin-top: 0px;
+      padding-top: 45px;
+  }
+  #search-by-occupation ul li a h3:after{
+      top: 30px;
+      display: none;
+  }
+  #search-by-occupation ul li a p{
+      font-size: 10px;
+      line-height: 12.5px;
+  }
+  #search-by-occupation ul li:nth-child(1){
+      width: 45.5%;
+  }
+  #search-by-occupation ul li:nth-child(2){
+      width: 54.5%;
+  }
+  #search-by-occupation ul li:before{
+      font-size: 18px;
+      top: 50px;
+      left: 0px;
+  }
+  #search-by-occupation ul li:nth-child(2):before{
+      left: 20px;
+  }
+  #search-by-occupation ul li:last-child:before{
+      left: 30px;
+  }
+  #search-by-occupation ul li:first-child a{
+      padding-left: 0px;
+  }
+  #search-by-occupation ul li:nth-child(2) a{
+      padding-left: 32px;
+  }
+  #search-by-occupation ul li:last-child{
+      margin-left: 25%;
+      margin-bottom: 0px;
+  }
+  #search-by-occupation ul li:nth-child(1) a{
+      background-image: url(../images/sp/bg_occupation_01.png);
+  }
+  #search-by-occupation ul li:nth-child(2) a{
+      background-image: url(../images/sp/bg_occupation_02.png);
+  }
+  #search-by-occupation ul li:last-child a{
+      padding-left: 30px;
+      background-image: url(../images/sp/bg_occupation_03.png);
+  }
+  #search-by-area h3{
+      font-size: 21px;
+      margin-top: -20px;
+  }
+  #search-by-area .container>.row-eq-height{
+      margin: 0px;
+  }
+  #search-by-area .kagoshima{
+      padding: 10px;
+  }
+  .search-list li a{
+      padding: 10px;
+  }
+  .search-list li a:after{
+      width: 5px;
+      height: 10px;
+      top: 14px;
+      right: 10px;
+  }
+  #search-by-area .japan{
+      width: 100%;
+      margin-top: 60px;
+      padding: 10px;
+      margin-left: 0px;
+  }
+  #search-by-area .japan .search-list{
+      width: 50%;
+      margin-left: 25%;
+  }
+  #search-by-area .japan ul li{
+      margin-bottom: 20px;
+  }
+
+  .style-content {
+
+  }
+  .style-content .search-list li{
+      width: auto;
+      margin-bottom: 5px;
+      display: inline-block;
+      padding: 0px 5px;
+  }
+  .style-content .search-list li a{
+      padding: 5px 15px;
+  }
+  .style-content .search-list li a:after{
+      top: 9px;
+      right: 5px;
+  }
+  #search-by-style{
+      padding-top: 30px;
+  }
+  #search-by-style.top-search h2{
+      margin-bottom: 10px;
+  }
+  #search-by-style .style-content{
+      margin-top: -30px;
+      padding: 20px;
+      padding-top: 40px;
+  }
+  #new-recruit{
+      background-size: auto 100%;
+      background-position: right 0px;
+  }
+  .top-search .description{
+      font-size: 12px;
+      color: #4d4d4d;
+  }
+  #new-recruit ul li:nth-child(3),
+  #new-recruit ul li:nth-child(4),
+  #know-how ul li:nth-child(3),
+  #know-how ul li:nth-child(4){
+       display: none;
+  }
+  .top-search ul li a .image .category{
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      padding: 5px;
+  }
+  .top-search ul li a .detail h3{
+      font-size: 12px;
+      line-height: 16px;
+      margin-bottom: 5px;
+  }
+  .top-search ul li a .detail>div{
+      font-size: 10px;
+  }
+  #topics .first{
+      background-size: cover;
+  }
+  #topics .first h3{
+      font-size: 16px;
+      padding-bottom: 15px;
+      margin: 0px;
+      letter-spacing: 0.2em;
+      line-height: 1.666em;
+      margin-bottom: 0px;
+      text-align: left;
+      padding-top: 15px;
+      padding-left: 0px;
+  }
+  #topics .first .container img{
+      max-width: none;
+      width: 130%;
+  }
+  #topics .second{
+      background-size: auto 100%;
+  }
+  #topics .second .container>div{
+      font-size: 12px;
+  }
+  #topics .second .container>div>div{
+      padding: 0px 10px 0px 20px;
+      line-height: 1.33em;
+  }
+  #topics .second .container h2{
+      font-size: 16px;
+      top: 0px;
+      padding: 15px;
+      padding-left: 80px;
+      line-height: 1.33em;
+  }
+  #topics .second .container img{
+      width: 200%;
+      bottom: 0px;
+      left: -80%;
+  }
+  .btn{
+      font-size: 16px;
+      padding: 12.5px;
+      width: 160px;
+  }
+  #topics .second .btn{
+      margin-bottom: 10px;
+  }
+  #topics .third h2{
+      text-align: left;
+      font-size: 18px;
+      margin-top: -30px;
+      margin-bottom: 0px;
+  }
+  #topics .third{
+      font-size: 12px;
+      line-height: 1.58em;
+      background-size: cover;
+  }
+  #topics .third .row-eq-height{
+      min-height: 180px;
+      /* 2021/05/08 */
+      overflow: hidden;
+  }
+  #topics .third .row-eq-height>div{
+      padding: 45px 10px 0px;
+      /* 2021/05/08 */
+      /* overflow: hidden; */
+  }
+  #topics .third .btn{
+      width: 240px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  #topics .third .container img{
+      max-width: none;
+      width: 175%;
+      right: -40px;
+  }
+  #know-how{
+      background-size: cover;
+  }
+  #contact{
+      background-position: center center;
+      padding-bottom: 60px;
+  }
+  #contact .mail .btn,
+  #contact .tel .btn{
+     width: 100%;
+      margin-top: 0px;
+      font-size: 18px;
+  }
+  #contact .btn:after{
+      position: absolute;
+      right: 10px;
+      top: 17.5px;
+  }
+  #contact .tel .btn{
+      margin-bottom: 10px;
+  }
+  #footer h3{
+      font-size: 14px;
+      margin-top: 10px;
+      border-width: 3px;
+      line-height: 18px;
+      padding-left: 10px;
+  }
+  #footer ul li{
+      font-size: 12px;
+  }
+  #footer .row-eq-height>div{
+      margin-bottom: 15px;
+  }
+  #copyright{
+      padding: 10px;
+      font-size: 10px;
+  }
+  .search-results #search-form{
+      background-image: url(../images/sp/bg_search.jpg);
+      margin-top: -30px;
+      padding: 50px 10px 0px;
+  }
+  .search-results #search-form h2{
+      font-size: 32px;
+      margin-bottom: 15px;
+      margin-top: -30px;
+  }
+  .search-results #search-form table tbody tr>*{
+      display: block;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .search-results #search-form table tbody tr>th{
+      padding-bottom: 0px;
+  }
+  .search-results #search-form .submit{
+      width: 100%;
+  }
+  .search-results #search-form .submit input[type="submit"]{
+      width: 100%;
+      font-size: 18px;
+  }
+  .search-results #search-form .submit:after{
+      left: 24px;
+      top: 10px;
+      width: 20px;
+  }
+  .search-results #search-form .container{
+      margin-top: 60px;
+      padding: 15px;
+  }
+  .search-results #search-form table tbody tr th p{
+      width: 90px;
+      font-size: 12px;
+  }
+  .search-results #search-form table tbody tr td label{
+      font-size: 12px;
+      font-weight: 400;
+  }
+  .search-results #search-form table tbody tr:nth-child(5)>* {
+      display: inline-block;
+      padding: 10px;
+  }
+  .search-results #number{
+      font-size: 12px;
+  }
+  .search-results #search-result ul li dl dt h3{
+      font-size: 18px;
+  }
+  .search-results #search-result ul li dl dt .note{
+      display: inline-block;
+      font-size: 12px;
+  }
+  .search-results #search-result ul li.attention dl dt{
+      position: relative;
+      padding-left: 60px;
+  }
+  .search-results #search-result ul li.attention dl dt .attention-label{
+      font-size: 18px;
+      top: calc(calc(100% - 45px)/2);
+  }
+  .search-results #search-result ul li.attention dl dt .attention-label:after{
+      border-top: 22.5px solid transparent;
+      border-bottom: 22.5px solid transparent;
+  }
+  .search-results #search-result ul li dl dd{
+      padding: 15px 25px;
+  }
+  .search-results #search-result ul li dl dd .img,
+  .search-results #search-result ul li dl dd .detail{
+      padding: 0px;
+  }
+  .search-results #search-result ul li dl dd .detail table tbody tr>*{
+      display: block;
+      font-size: 12px;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .search-results #search-result ul li dl dd .detail table tbody tr th{
+      padding-bottom: 0px;
+      font-size: 12px;
+  }
+  .search-results #search-result ul li.attention dl dd .detail table tbody tr th p{
+      width: 90px;
+  }
+  .search-results #search-result ul li dl dd .detail table tbody tr th p:after{
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+  }
+  .search-results #search-result ul li dl dd .detail .category li{
+      margin-bottom: 5px;
+      font-size: 12px;
+  }
+  .search-results #search-result ul li dl dd .detail .btn-list .btn{
+      margin-top: 5px;
+  }
+  .search-results #search-result ul li dl dd .deadline{
+      margin-left: -10px;
+      margin-right: -10px;
+      display: block;
+      font-size: 10px;
+      font-family: 'KozGoPr6N';
+      letter-spacing: 0.1em;
+      margin-top: 5px;
+  }
+  .contactus h2{
+      font-size: 16px;
+      margin-top: -20px;
+  }
+  .contactus #main-content table tbody tr:nth-child(1)>*,
+  .contactus #main-content table tbody tr:nth-child(2)>*,
+  .contactus #main-content table tbody tr:nth-child(3)>*{
+      display: inline-block;
+  }
+  .contactus #main-content table tbody tr:nth-child(1)>th,
+  .contactus #main-content table tbody tr:nth-child(2)>th,
+  .contactus #main-content table tbody tr:nth-child(3)>th{
+      padding-left: 0px;
+      padding-top: 0px;
+      width: 45%;
+  }
+  .contactus #main-content table tbody tr:nth-child(1)>td,
+  .contactus #main-content table tbody tr:nth-child(2)>td,
+  .contactus #main-content table tbody tr:nth-child(3)>td{
+      padding-right: 0px;
+      width: 55%;
+  }
+  .contactus #main-content table tbody tr:nth-child(4)>*,
+  .contactus #main-content table tbody tr:nth-child(5)>*,
+  .contactus #main-content table tbody tr:nth-child(6)>*,
+  .contactus #main-content table tbody tr:nth-child(7)>*,
+  .contactus #main-content table tbody tr:nth-child(8)>*,
+  .contactus #main-content table tbody tr:nth-child(9)>*,
+  .contactus #main-content table tbody tr:nth-child(10)>*{
+      display: block;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .contactus #main-content #contact-us table tbody tr th p{
+      font-size: 12px;
+      width: 140px;
+  }
+  .contactus #main-content table tbody tr th{
+      padding-bottom: 0px;
+  }
+  .contactus #contact-us .content-box .description{
+      font-size: 12px;
+  }
+  .contactus #contact-us .content-box{
+      padding: 15px;
+  }
+  .contactus #main-content table tbody tr td label{
+      font-size: 12px;
+      margin-bottom: 0px;
+      font-weight: 400;
+  }
+  .contactus #contact-us .notice{
+      font-size: 12px;
+  }
+  .contactus #about-us h2{
+      font-size: 32px;
+  }
+  .contactus #about-us iframe{
+      margin-top: -30px;
+      margin-bottom: 30px;
+  }
+  .contactus #main-content #about-us table tbody tr>*{
+      display: table-cell;
+  }
+  .contactus #main-content #about-us table tbody tr>td{
+      padding-left: 0px;
+  }
+  .contactus #main-content #about-us table tbody tr th p{
+      font-size: 12px;
+      width: 120px;
+      font-family: 'KozGoPr6N';
+  }
+  .contactus #main-content #contact-us .submit th{
+      padding: 0px;
+  }
+  .contactus #main-content #contact-us .submit td:after{
+      display: none;
+  }
+  .contactus #main-content #contact-us .submit td{
+      margin-bottom: -25px;
+  }
+  /*
+  .page.contact #main-content table tbody tr>*{
+      display: block;
+      padding: 10px 0px;
+  }
+  .page.contact #main-content table tbody tr th{
+      padding-bottom: 0px;
+  }
+  */
+  .single-knowhow #knowhow-content{
+      padding-top: 30px;
+      padding-bottom: 60px;
+      margin-bottom: 60px;
+  }
+  .single-knowhow #knowhow-content .container,
+  .single-knowhow #related-posts .container,
+  .single #main-content .main-col{
+      width: 375px;
+  }
+  .single-knowhow #knowhow-content .date,
+  .single-knowhow #related-posts ul li .date,
+  .single-knowhow #related-posts .menu{
+      font-size: 12px;
+  }
+  .single-knowhow #knowhow-content h3,
+  .single #main-content .main-col h3{
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+  }
+  .single-knowhow h2{
+      font-size: 27px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+  .single-knowhow #related-posts{
+      margin-bottom: 60px;
+  }
+  .single-knowhow #related-posts ul li:nth-child(3){
+      display: none;
+  }
+  .top-search ul li a .image{
+      height: 120px;
+  }
+  .single h2{
+      margin-top: 0px;
+      margin-bottom: 30px;
+      font-size: 27px;
+  }
+  .single #main-content .date{
+      font-size: 12px;
+      padding-left: 10px;
+  }
+  .single #main-content .main-col{
+      margin: 0 auto;
+      margin-bottom: 60px;
+  }
+  .single #main-content .main-col h3{
+      text-align: left;
+  }
+  .single #main-content .sidebar-content h4{
+      font-size: 15px;
+  }
+  .single #main-content .sidebar-content .bn-list li,
+  .single #main-content .sidebar-content .bn-menu{
+      font-size: 12px;
+  }
+  .job-introduction #main-content #service{
+      margin-top: 0px;
+  }
+  .job-introduction #main-content #service>div{
+      background-size: auto 100%;
+      background-position: top 20vw right 0px;
+      margin-bottom: 30px;
+  }
+  .job-introduction #main-content #service .row-eq-height{
+      overflow: hidden;
+      padding-top: 20vw;
+  }
+  .job-introduction #main-content #service .detail .content{
+      margin-bottom: 15px;
+      padding-top: 15px;
+      font-size: 3vw;
+  }
+  .job-introduction #main-content #service .img img{
+      width: 45vw;
+      bottom: 0px;
+      left: -16vw;
+  }
+  .job-introduction #main-content #service h3{
+      font-size: 16px;
+      top: 0px;
+      padding: 15px;
+      padding-left: 160px;
+      line-height: 1.33em;
+  }
+  .job-introduction #main-content #service .service-02 .content{
+      padding-left: 15px;
+      padding-right: 60px;
+      margin-bottom: 15px;
+  }
+  .job-introduction #main-content #service .service-02 .img img{
+      width: 240%;
+  }
+  .job-introduction #merit{
+      margin-top: 60px;
+  }
+  .job-introduction #merit .container{
+      padding: 15px;
+  }
+  .job-introduction #main-content h2,
+  .job-introduction #main-content #flow h2{
+      font-size: 18px;
+      margin-bottom: 30px;
+  }
+  .job-introduction #merit ul li dl{
+      margin-bottom: 30px;
+  }
+  .job-introduction #merit ul li dl dt{
+      font-size: 12px;
+      margin-right: -15px;
+      padding-left: 45px;
+  }
+  .job-introduction #merit ul li dl dt .number{
+      font-size: 64px;
+  }
+  .job-introduction #merit ul li dl dd{
+      padding-left: 45px;
+  }
+  .job-introduction #main-content #flow ul li dl dt{
+      font-size: 24px;
+      margin-bottom: -10px;
+  }
+  .job-introduction #main-content #flow ul li dl dd .image .number{
+      font-size: 42px;
+      top: -40px;
+  }
+  .job-introduction #main-content #flow ul li dl dd h3{
+      font-size: 14px;
+      margin-bottom: 5px;
+      margin-top: 10px;
+  }
+  .job-introduction #main-content #flow ul li dl dd .tel{
+      font-size: 12px;
+      margin-top: 10px;
+  }
+  .job-introduction #main-content #flow ul li dl dd .detail{
+      max-height: 140px;
+      overflow: scroll;
+      padding: 15px;
+      padding-top: 0px;
+  }
+  .single #main-content{
+      padding-top: 20px;
+  }
+  .single-recruit #main-content .single-content{
+      padding: 0px;
+  }
+  .single-recruit #main-content .single-content .container{
+      padding: 0px;
+  }
+  .single-recruit #main-content h1{
+      margin-top: 0px;
+      font-size: 18px;
+      text-align: left;
+      line-height: 1.5;
+  }
+  .single-recruit #main-content .detail-box{
+      padding: 5px 15px;
+  }
+  .single-recruit .detail-box .main-image>div{
+      padding: 0px 2.5px;
+  }
+  .single-recruit .detail-box .main-image .image-02{
+      margin-bottom: 5px;
+  }
+  .single-recruit .detail-box .features li{
+      margin: 0px 2.5px 10px 2.5px;
+  }
+  .single-recruit .contact .tel:after{
+      display: none;
+  }
+  .single-recruit .contact .tel b{
+      letter-spacing: 0.2em;
+      font-size: 42px;
+  }
+  .single-recruit .contact .tel .small{
+      font-size: 16px;
+  }
+  .single-recruit .contact .mail .btn{
+      width: 100%;
+  }
+  .training #calendar{
+      margin-bottom: 0px;
+  }
+  .training #main-content #training{
+      margin-bottom: 0px;
+      margin-top: 45px;
+  }
+  .training #main-content #training .img img{
+      width: 240%;
+      bottom: auto;
+      left: -100%;
+      top: auto;
+      bottom: 0;
+      width: 220%;
+      left: -75%;
+      z-index: 0;
+  }
+  .training #main-content #training>div{
+      background-size: 100% 100%;
+  }
+  .training #main-content #training h3{
+      font-size: 18px;
+      padding-left: 60px;
+  }
+  .training #main-content #training .detail .content{
+      padding: 10px 10px 0px 0px;
+  }
+  .training #main-content #training>div.training-02{
+      background-size: cover;
+  }
+  .training #main-content #training>div.training-02 .container{
+      padding: 15px;
+      text-align: left;
+  }
+  .training #main-content #training>div.training-03{
+      background-size: cover;
+  }
+  .training #main-content #training>div.training-03 .container{
+      padding: 15px;
+  }
+  .training #main-content #training>div.training-03 .btn{
+      width: 100%;
+  }
+  .training #main-content #training>div.training-03 b{
+      font-size: 18px;
+  }
+  .training #calendar .container{
+      padding: 30px 15px;
+  }
+  .training #calendar h2{
+      margin-top: 0px;
+      margin-bottom: 15px;
+      font-size: 16px;
+  }
+  .training #calendar table tbody tr th p{
+      font-size: 12px;
+      width: 120px;
+  }
+  .training #calendar ul{
+      padding-top: 30px;
+      margin-left: -15px;
+      margin-right: -15px;
+      background-color: #fff;
+  }
+  .training #calendar ul li{
+      padding: 0px 15px;
+  }
+  .training #lisence{
+      margin-bottom: 60px;
+  }
+  .training #lisence h3{
+      font-size: 21px;
+      letter-spacing: 0.2em;
+  }
+  .training #lisence .detail{
+      padding: 0px;
+      padding-left: 15px;
+  }
+  .training #lisence h4{
+      font-size: 18px;
+      letter-spacing: 0.2em;
+      border-top: #000 solid 1px;
+      border-bottom: none;
+      padding-top: 15px;
+      padding-bottom: 0px;
+  }
+  .training #lisence .img img{
+      width: 200%;
+      right: -80%;
+      bottom: auto;
+      top: auto;
+      bottom: 0px;
+      z-index: 0;
+      width: 150%;
+      right: -50%;
+  }
+  .training #lisence .container{
+      overflow: hidden;
+  }
+  .training #lisence>div{
+      background-size: cover;
+  }
+  .training #lisence>div.lisence-02 .small{
+      font-size: 12px;
+      font-family: 'KozGoPr6N';
+      margin-bottom: 0px;
+  }
+  .training #main-content #flow h4{
+      font-size: 18px;
+  }
+  .training #main-content #flow .row-eq-height{
+      margin-left: -20px;
+      margin-right: -20px;
+  }
+  .training #main-content #flow ul li dl dt{
+      font-size: 18px;
+  }
+  .training #main-content #flow ul li dl dt .number{
+      font-size: 42px;
+      top: -50px;
+  }
+  .training #main-content #flow ul li{
+      padding-top: 20px;
+  }
+  .training #main-content #flow ul li dl dd{
+      font-size: 12px;
+  }
+  .training #retire h3{
+      padding: 10px;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0.5em;
+  }
+  .training #retire .img img{
+      position: relative;
+      left: auto;
+      bottom: auto;
+      margin-top: 60px;
+  }
+  .training #retire{
+      background-size: cover;
+  }
+  .training #main-content h2{
+      font-size: 24px;
+      margin-bottom: 30px;
+  }
+  .training #flow-02 ul li{
+      padding: 15px;
+      margin-bottom: 30px;
+  }
+  .training #flow-02 ul li dl{
+      margin-bottom: 0px;
+  }
+  .training #flow-02 ul li dl dt{
+      font-size: 16px;
+  }
+  .training #flow-02 ul li dl dd{
+      font-size: 12px;
+  }
+  .training #flow-02 ul li dl dt .number{
+      font-size: 36px;
+      top: -45px;
+  }
+  .company #main-content h1{
+      font-size: 24px;
+      margin-top: 30px;
+      line-height: 1.5em;
+  }
+  .company #main-content #introduction{
+      background-size: cover;
+  }
+  .company #main-content #introduction .img img{
+      width: 300%;
+      left: -45%;
+  }
+  .company #main-content #introduction h2{
+      padding: 10px;
+      font-size: 18px;
+      text-align: left;
+      padding-left: 80px;
+  }
+  .company #main-content #introduction .description{
+      padding-left: 180px;
+      font-size: 10px;
+      line-height: 1.25em;
+      padding-left: 80px;
+  }
+  .company #main-content #introduction .content{
+  padding-left: 80px;
+      font-size: 10px;
+      line-height: 1.25em;
+  }
+  .company #main-content #introduction .content br,
+  .company #main-content #introduction .description br{
+      display: none;
+  }
+  .company #main-content #introduction .detail{
+      padding-right: 0px;
+  }
+  .company #main-content h2{
+      font-size: 24px;
+      margin-bottom: 30px;
+  }
+  .company #flow ul li{
+      padding: 0px 15px;
+  }
+  .company #flow ul li dl dd h3{
+      font-size: 14px;
+      margin-bottom: 5px;
+  }
+  .company #flow ul li dl dd .detail{
+      padding: 15px;
+      padding-left: 33%;
+      width: 100%;
+  }
+  .company #flow ul li dl dd .tel {
+      font-size: 12px;
+      padding: 10px;
+      display: block;
+      width: 140px;
+      text-align: center;
+  }
+  .company #flow ul li dl dd .image{
+      z-index: 10;
+      left: 0px;
+      height: 80%;
+      width: calc(33% - 15px);
+      position: absolute;
+      top: 0px;
+  }
+  .company #flow ul li dl dd .image .number{
+      right: auto;
+      left: 100px;
+      font-size: 42px;
+      top: -40px;
+  }
+  .company #main-content #business-partner h2{
+      margin-top: -60px;
+      margin-bottom: 90px;
+  }
+  .company #main-content #business-partner .container{
+      overflow: visible;
+  }
+  .company #business-partner .content-box{
+      padding-top: 60px;
+  }
+  .company #business-partner h2 .small{
+      right: 10px;
+  }
+  .company #flow ul li dl dt{
+      font-size: 24px;
+      margin-top: 30px;
+      margin-bottom: -10px;
+  }
+  .company #business-partner .content-box ul li div{
+      font-size: 10px;
+      line-height: 14px;
+      padding-top: 12.5px;
+      padding-bottom: 10px;
+      height: 40px;
+  }
+  .company #main-content #business-partner h2:after{
+      width: 200px;
+      height: 58px;
+      right: calc(calc(100% - 200px)/2);
+  }
+  .slick-slide{
+      opacity: 1.0;
+  }
+  .know-how .top-search ul li a .date{
+      font-size: 12px;
+  }
+  .know-how .top-search .container>h3{
+      font-size: 14px;
+  }
+}
+@media(min-width:376px) and (max-width:767px){
+}
+@media(max-width:375px){
+  .single-knowhow #knowhow-content .container,
+  .single-knowhow #related-posts .container,
+  .single #main-content .main-col{
+      width: 100%;
+      padding: 0px 30px;
+  }
+}
