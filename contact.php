@@ -26,13 +26,20 @@ if( !empty($_POST['btn_confirm']) ) {
   <meta name="keywords" content="株式会社Sawa,求人,転職,鹿児島,保育園,介護,看護,個室ジム,パーソナルトレーナー">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/contact.css">
-  <link rel="icon" href="">
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  <link rel="icon" href="images/サイトアイコン.png">
+  <link rel="canonical" href="https://www.sawa.kagoshima.jp/contact.php"/>
   <meta name="theme-color" content="#ffffff">
   <meta property="og:title" content="株式会社Sawa">
   <meta property="og:site_name" content="株式会社Sawa">
   <meta property="og:type" content="website">
   <meta property="og:description" content="株式会社Sawaは、ただのエージェントではなく、キャリアをデザインするデザインカンパニーです。「働くを夢中に。」という理念のもと、本質的な価値を創り続けます。">
-  <meta property="og:url" content="">
+  <meta property="og:url" content="https://www.sawa.kagoshima.jp/contact.php">
   <meta property="og:image" content="">
   <title> 派遣依頼 | 株式会社Sawa</title>
 </head>
@@ -231,5 +238,13 @@ if( !empty($_POST['btn_confirm']) ) {
        Copyright ©︎ 2022 株式会社Sawa. 
     </small>
   </footer>
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
