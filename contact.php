@@ -140,7 +140,7 @@ if( !empty($_POST['btn_confirm']) ) {
                     企業名
                     <br>
                     <span class="wpcf7-form-control-wrap" data-name="your-name">
-                      <input type="text" name="your-name" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-invalid="false">
+                      <input type="text" name="your-name" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-invalid="false" required="required">
                     </span>
                   </label>
                 </p>
@@ -149,7 +149,7 @@ if( !empty($_POST['btn_confirm']) ) {
                     企業名(フリガナ)
                     <br>
                     <span class="wpcf7-form-control-wrap" data-name="text-263">
-                      <input type="text" name="text-263" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+                      <input type="text" name="text-263" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required="required">
                     </span>
                   </label>
                 </p>
@@ -158,7 +158,7 @@ if( !empty($_POST['btn_confirm']) ) {
                     担当者様お名前
                     <br>
                     <span class="wpcf7-form-control-wrap" data-name="text-264">
-                      <input type="text" name="text-264" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+                      <input type="text" name="text-264" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required="required">
                     </span>
                   </label>
                 </p>
@@ -167,7 +167,7 @@ if( !empty($_POST['btn_confirm']) ) {
                     お電話番号
                     <br>
                     <span class="wpcf7-form-control-wrap" data-name="tel-248">
-                      <input type="text" name="tel-248" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+                      <input type="text" name="tel-248" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required="required">
                     </span>
                   </label>
                 </p>
@@ -176,7 +176,7 @@ if( !empty($_POST['btn_confirm']) ) {
                     メールアドレス
                     <br>
                     <span class="wpcf7-form-control-wrap" data-name="your-email">
-                      <input type="text" name="your-email" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+                      <input type="text" name="your-email" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required="required">
                     </span>
                   </label>
                 </p>
@@ -185,7 +185,7 @@ if( !empty($_POST['btn_confirm']) ) {
                     会社ご住所
                     <br>
                     <span class="wpcf7-form-control-wrap" data-name="textarea-591">
-                      <input type="text" name="textarea-591" cols="40" rows="10" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+                      <input type="text" name="textarea-591" cols="40" rows="10" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required="required">
                     </span>
                   </label>
                 </p>
@@ -194,7 +194,7 @@ if( !empty($_POST['btn_confirm']) ) {
                     派遣希望の職種
                     <br>
                     <span class="wpcf7-form-control-wrap" data-name="text-266">
-                      <input type="text" name="text-266" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+                      <input type="text" name="text-266" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required="required">
                     </span>
                   </label>
                 </p>
@@ -203,7 +203,7 @@ if( !empty($_POST['btn_confirm']) ) {
                     派遣依頼の内容などをご記入ください。
                     <br>
                     <span class="wpcf7-form-control-wrap" data-name="textarea-592">
-                      <input type="text" name="textarea-592" cols="40" rows="10" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+                      <input type="text" name="textarea-592" cols="40" rows="10" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required="required">
                     </span>
                   </label>
                 </p>
@@ -211,7 +211,7 @@ if( !empty($_POST['btn_confirm']) ) {
                   <span class="wpcf7-form-control-wrap" data-name="acceptance-503">
                     <span class="wpcf7-form-control wpcf7-acceptance">
                       <span class="wpcf7-list-item">
-                        <input type="checkbox" name="acceptance-503" value="1" aria-invalid="false">
+                        <input type="checkbox" name="acceptance-503" value="1" aria-invalid="false" required="required">
                       </span>
                     </span>
                   </span>
