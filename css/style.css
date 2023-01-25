@@ -384,16 +384,52 @@ a {
   color: #fff
 }
 
+/* Webサイト制作事業 */
+.c-show-zoom-in.is-shown {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.p-index-concept__content {
+  position: relative;
+  z-index: 10;
+}
+
+.u-tt-u {
+  text-transform: uppercase;
+}
+
+.c-header-fjalla {
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #000;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+}
+
+.c-header-simple {
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+/* フッター */
 .footer-top {
   padding: 90px;
   background-color: var(--dark)
 }
+
 .footer-top a {
   color: var(--body)
 }
+
 .footer-top a:hover {
   color: #fff
 }
+
 #copyright {
   text-align: center;
   font-family: 'KozuGoPr6N';
@@ -473,5 +509,32 @@ a {
 @media only screen and (max-width: 767px) {
   p {
     font-size: 1em;
+  }
+
+  .p-index-concept__content {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .l-contents {
+    line-height: 1.83333;
+  }
+
+  .p-index-concept__head {
+    margin-bottom: 20px;
+  }
+
+  .c-header-fjalla--l {
+    font-size: 12vw;
+  }
+
+  .c-header-simple {
+    font-size: 4.8vw;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .p-index-concept__text {
+    line-height: 1.83333;
   }
 }
