@@ -385,35 +385,106 @@ a {
 }
 
 /* Webサイト制作事業 */
-.c-show-zoom-in.is-shown {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-
-.p-index-concept__content {
+.l-harf-bg {
   position: relative;
-  z-index: 10;
+  background-color: #ececec;
 }
 
-.u-tt-u {
-  text-transform: uppercase;
+.section {
+  padding-top: 0.1px;
+  padding-bottom: 0.1px;
 }
 
-.c-header-fjalla {
-  line-height: 1;
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #000;
-  font-family: "Fjalla One", sans-serif;
+.container-wrap>* {
+  z-index: 2;
+  position: relative;
+}
+
+section {
+  border: none;
+  display: block;
+}
+
+.l-harf-bg::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-color: #ddd;
+}
+
+.panel--service {
+  padding: 3em 0;
+}
+
+.l-harf-bg>* {
+  position: relative;
+  z-index: 1;
+}
+
+.sa.show {
+  opacity: 1;
+  transform: none;
+}
+
+.panel--service__body .heading {
+  font-size: 1.2rem;
   font-weight: 400;
+  letter-spacing: .15em;
 }
 
-.c-header-simple {
+.sa.fade02 {
+  transition-delay: 200ms;
+}
+
+.sa--lr {
+  transform: translate( 100px,0);
+}
+
+.sa {
+  opacity: 0;
+  transition: all ease;
+}
+
+.panel--service__body .catch {
+  margin: 1rem 0;
+  color: #2c2544;
+  font-size: 1.75em;
   line-height: 1.6;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: .025em;
+}
+
+.sa.fade03 {
+  transition-delay: 300ms;
+}
+
+.ming-font {
+  font-family: "游明朝",YuMincho,"ヒラギノ明朝 ProN W3",Hiragino Mincho ProN,"HG明朝E","MS P明朝","MS 明朝",serif;
+}
+
+.default-font {
+  font-family: "游ゴシック体",YuGothic,"游ゴシック Medium",Yu Gothic Medium,"メイリオ",Meiryo,sans-serif;
+}
+
+.yellow-color {
+  color: #cca53b !important;
+}
+
+.panel--service__body .text {
+  margin-bottom: 1.8rem;
+  font-size: 1.2rem;
   font-weight: 400;
+  line-height: 1.9;
+  letter-spacing: .2em;
+}
+
+.section--intro-webcreation .panel--service__body>img {
+  width: 37.8vw;
+  max-width: 325px;
+  margin-right: 0;
+  margin-left: auto;
 }
 
 /* フッター */
@@ -511,30 +582,26 @@ a {
     font-size: 1em;
   }
 
-  .p-index-concept__content {
-    padding-right: 25px;
-    padding-left: 25px;
+  .section {
+    padding-left: 6.25vw;
+    padding-right: 6.25vw;
   }
 
-  .l-contents {
-    line-height: 1.83333;
+  .section--intro-webcreation .panel--service {
+    padding-bottom: 0;
   }
 
-  .p-index-concept__head {
-    margin-bottom: 20px;
+  .xs-hide {
+    display: none !important;
   }
 
-  .c-header-fjalla--l {
-    font-size: 12vw;
-  }
-
-  .c-header-simple {
-    font-size: 4.8vw;
+  .panel--service__image-wrapper {
+    margin-top: -5em;
+    margin-left: -6.25vw;
+    margin-right: -6.25vw;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .p-index-concept__text {
-    line-height: 1.83333;
-  }
+  
 }
