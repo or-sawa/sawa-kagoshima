@@ -487,6 +487,54 @@ section {
   margin-left: auto;
 }
 
+/* 会社情報 */
+.detail_box {
+  margin: 40px 0;
+}
+
+.detail_box h3 {
+  background: #f5f3ed;
+  border-top: 1px dotted #333333;
+  border-bottom: 1px dotted #333333;
+  padding: 10px 20px 8px 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.detail_box table {
+  width: 750px;
+  border-collapse: collapse;
+  text-align: left;
+  margin: 30px auto 50px auto;
+  border-bottom: 2px dotted #c5bf96;
+  border-top: 2px dotted #c5bf96;
+  box-sizing: border-box;
+}
+
+.detail_box th {
+  width: 170px;
+  background: #f6f6f1;
+  border-bottom: 2px dotted #c5bf96;
+  border-top: 2px dotted #c5bf96;
+  border-right: 2px dotted #c5bf96;
+  border-collapse: collapse;
+  font-weight: normal;
+  padding: 3px 5px 3px 15px;
+  vertical-align: top;
+  color: #6c5e28;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.detail_box td {
+  border-bottom: 2px dotted #c5bf96;
+  border-top: 2px dotted #c5bf96;
+  border-collapse: collapse;
+  padding: 3px 20px 3px 20px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
 /* フッター */
 .footer-top {
   padding: 90px;
@@ -600,6 +648,12 @@ section {
     margin-left: -6.25vw;
     margin-right: -6.25vw;
   }
+
+  .detail_box table {
+    width: 100% !important;
+    overflow: hidden !important;
+  }
+
 }
 
 @media only screen and (max-width: 1024px) {
