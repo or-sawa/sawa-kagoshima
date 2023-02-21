@@ -26,6 +26,7 @@ if( !empty($_POST['btn_confirm']) ) {
   <meta name="keywords" content="株式会社Sawa,求人,転職,鹿児島,保育園,介護,看護,個室ジム,パーソナルトレーナー">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/partners.css">
   <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -45,14 +46,71 @@ if( !empty($_POST['btn_confirm']) ) {
 </head>
 <body class>
   <main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3 sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <h2 class="pt-2 text-white">株式会社Sawa</h2>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="background-color: #fff;"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.php">お問い合わせ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="partners.html">取引先一覧</a>
+            </li>
+            <!-- ボタン部分 -->
+            <div class="bl_sizeBtn_wrap">
+              <span class="text-white">文字サイズ変更</span>
+              <button type="button" class="bl_sizeBtn" id="fz_sm">小</button>
+              <button type="button" class="bl_sizeBtn is_active" id="fz_md">中</button>
+              <button type="button" class="bl_sizeBtn" id="fz_lg">大</button>
+            </div>
+          </ul>
+        </div>
+      </div>
+      
+    </nav>
+    <div class="topicpathBlock showTopicpathBlock clearfix" style="margin-top: 10px;">
+      <div class="topicpathBox">
+        <ol>
+          <li class="activepath">
+            <a href="index.html">
+              ホーム
+            </a>
+          </li>
+          <li class="activepath">
+            <a>
+              お問い合わせ
+            </a>
+          </li>
+        </ol>
+      </div>
+    </div>
     <div class="l-contents">
       <div class="l-contents__inner l-inner">
         <article class="p-entry l-primary">
-          <header class="p-entry l-primary">
+          
             <h1 class="p-entry__title" style="font-size: 34px;">
               企業向け | 派遣依頼フォーム
             </h1>
-          </header>
+          
+            <br>
+
+            <hr>
+
           <div class="p-entry__body">
             <p>
               当WEBサイトでは、企業様からの派遣スタッフをご依頼いただくための入り口として、
@@ -234,9 +292,38 @@ if( !empty($_POST['btn_confirm']) ) {
   <?php endif; ?>
 
   <footer class="front_footer">
-    <small class="front_footer-copyright">
-       Copyright ©︎ 2022 株式会社Sawa. 
-    </small>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+         <div class="col-md-4">
+            <h4 class="text-white">THE CAREER DESIGN COMPANY.</h4>
+         </div>
+         <div class="col-md-2">
+           <h5 class="text-white">株式会社Sawa</h5>
+           <ul class="list-unstyled">
+            <li><a href="company/about.html">会社概要</a></li>
+            <li><a href="company/career.html">Sawaの特典</a></li>
+            <li><a href="company/client.html">法人のお客さまへ</a></li>
+            <li><a href="info.html">労働者派遣事業に係る情報提供</a></li>
+           </ul>
+         </div>
+         <div class="col-md-4">
+            <h5 class="text-white">Company</h5>
+            <ul class="list-unstyled">
+             <li class="text-white">Name: 株式会社Sawa</li>
+             <li class="text-white">Address: 890-0056 鹿児島市下荒田2丁目25-1-1F</li>
+             <li class="text-white">Email: s.seisaku.co@icloud.com</li>
+             <li class="text-white">Phone: 099-297-6922</li>
+            </ul>
+         </div>
+        </div>
+      </div>
+    </div>
+    <div id="copyright">
+      <div class="container">
+         CopyRight 2022 Sawa Co.,LTD. All Rights Reserved.
+      </div>
+    </div>
   </footer>
   <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

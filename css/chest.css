@@ -20,7 +20,7 @@ h6 {
 }
 a {
   color: var(--dark);
-  text-decoration: none
+  text-decoration: none !important;
 }
 img {
   width: 100%
