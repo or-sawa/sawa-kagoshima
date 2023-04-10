@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="株式会社Sawaは、ただのエージェントではなく、キャリアをデザインするデザインカンパニーです。「働くを夢中に。」という理念のもと、本質的な価値を創り続けます。">
   <meta name="keywords" content="株式会社Sawa,求人,転職,鹿児島,保育園,ハコフィット,チェストJobs">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/contact.css">
   <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     />
   <link rel="canonical" href="https://www.sawa.kagoshima.jp/reception.php"/>
-  <link rel="icon" href="images/サイトアイコン.png">
+  <link rel="icon" href="../images/サイトアイコン.png">
   <meta name="theme-color" content="#ffffff">
   <meta property="og:title" content="株式会社Sawa">
   <meta property="og:site_name" content="株式会社Sawa">
@@ -28,7 +28,7 @@
 <body class>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3 sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="../index.html">
           <h2 class="pt-2 text-white">TOPページに戻る</h2>
         </a>
       </div>

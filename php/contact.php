@@ -24,16 +24,16 @@ if( !empty($_POST['btn_confirm']) ) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="株式会社Sawaは、ただのエージェントではなく、キャリアをデザインするデザインカンパニーです。「働くを夢中に。」という理念のもと、本質的な価値を創り続けます。">
   <meta name="keywords" content="株式会社Sawa,求人,転職,鹿児島,保育園,ハコフィット,チェストJobs">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/contact.css">
-  <link rel="stylesheet" href="css/partners.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="stylesheet" href="../css/partners.css">
   <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
-  <link rel="icon" href="images/サイトアイコン.png">
+  <link rel="icon" href="../images/サイトアイコン.png">
   <link rel="canonical" href="https://www.sawa.kagoshima.jp/contact.php"/>
   <meta name="theme-color" content="#ffffff">
   <meta property="og:title" content="株式会社Sawa">
@@ -48,7 +48,7 @@ if( !empty($_POST['btn_confirm']) ) {
   <main>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3 sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="../index.html">
           <h2 class="pt-2 text-white">株式会社Sawa</h2>
         </a>
         <button
@@ -69,10 +69,10 @@ if( !empty($_POST['btn_confirm']) ) {
               <a class="nav-link text-white" href="contact.php">お問い合わせ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="partners.html">取引先一覧</a>
+              <a class="nav-link text-white" href="../partners.html">取引先一覧</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="blog.html">新着情報</a>
+              <a class="nav-link text-white" href="../blog.html">新着情報</a>
             </li>
             <!-- ボタン部分 -->
             <div class="bl_sizeBtn_wrap">
@@ -90,7 +90,7 @@ if( !empty($_POST['btn_confirm']) ) {
       <div class="topicpathBox">
         <ol>
           <li class="activepath">
-            <a href="index.html">
+            <a href="../index.html">
               ホーム
             </a>
           </li>
@@ -304,10 +304,10 @@ if( !empty($_POST['btn_confirm']) ) {
          <div class="col-md-2">
            <h5 class="text-white">株式会社Sawa</h5>
            <ul class="list-unstyled">
-            <li><a href="company/about.html">会社概要</a></li>
-            <li><a href="company/career.html">Sawaの特典</a></li>
-            <li><a href="company/client.html">法人のお客さまへ</a></li>
-            <li><a href="info.html">労働者派遣事業に係る情報提供</a></li>
+            <li><a href="../company/about.html">会社概要</a></li>
+            <li><a href="../company/career.html">Sawaの特典</a></li>
+            <li><a href="../company/client.html">法人のお客さまへ</a></li>
+            <li><a href="../info.html">労働者派遣事業に係る情報提供</a></li>
            </ul>
          </div>
          <div class="col-md-4">
@@ -335,6 +335,6 @@ if( !empty($_POST['btn_confirm']) ) {
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
