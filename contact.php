@@ -71,6 +71,9 @@ if( !empty($_POST['btn_confirm']) ) {
             <li class="nav-item">
               <a class="nav-link text-white" href="partners.html">取引先一覧</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="blog.html">新着情報</a>
+            </li>
             <!-- ボタン部分 -->
             <div class="bl_sizeBtn_wrap">
               <span class="text-white">文字サイズ変更</span>
@@ -119,7 +122,7 @@ if( !empty($_POST['btn_confirm']) ) {
               以下のフォームにご明記の上、送信ボタンを押してください。
             </p>
             <p>
-              通常、3営業日以内のご返信を差し上げますが1週間経ちましたても返信がない場合は、送信トラブルの可能性がございますので、
+              通常、3営業日以内のご返信を差し上げますが1週間経ちましても返信がない場合は、送信トラブルの可能性がございますので、
               その際はお手数でございますが、株式会社Sawa(099-297-6922)までお問い合わせくださいませ。
             </p>
 
