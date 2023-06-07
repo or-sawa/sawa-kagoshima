@@ -74,13 +74,6 @@ if( !empty($_POST['btn_confirm']) ) {
             <li class="nav-item">
               <a class="nav-link text-white" href="../blog.html">新着情報</a>
             </li>
-            <!-- ボタン部分 -->
-            <div class="bl_sizeBtn_wrap">
-              <span class="text-white">文字サイズ変更</span>
-              <button type="button" class="bl_sizeBtn" id="fz_sm">小</button>
-              <button type="button" class="bl_sizeBtn is_active" id="fz_md">中</button>
-              <button type="button" class="bl_sizeBtn" id="fz_lg">大</button>
-            </div>
           </ul>
         </div>
       </div>
@@ -246,7 +239,7 @@ if( !empty($_POST['btn_confirm']) ) {
                     会社ご住所
                     <br>
                     <span class="wpcf7-form-control-wrap" data-name="textarea-591">
-                      <input type="text" name="textarea-591" cols="40" rows="10" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required="required">
+                      <input type="text" name="textarea-591" value size="80" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required="required">
                     </span>
                   </label>
                 </p>
@@ -264,7 +257,7 @@ if( !empty($_POST['btn_confirm']) ) {
                     派遣依頼の内容などをご記入ください。
                     <br>
                     <span class="wpcf7-form-control-wrap" data-name="textarea-592">
-                      <input type="text" name="textarea-592" cols="40" rows="10" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required="required">
+                      <input type="text" name="textarea-592" value size="80" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required="required">
                     </span>
                   </label>
                 </p>
