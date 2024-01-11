@@ -216,6 +216,77 @@ of Simple CSS Waves-->
         </div>
       </div>
     </section>
+    <section class="front_creative l_container-sm">
+      <div class="l_contents">
+        <div class="front_corporate-wrap">
+          <div class="front_corporate_img-wrap">
+            <img src="https://thumb.photo-ac.com/03/0361fea7cad10f7ee4e6ee48559ef3fc_t.jpeg" width="1030" height="720" alt="株式会社Sawa フィットネス事業" class="front_corporate_img">
+          </div>
+          <div class="front_corporate_content">
+            <h2 class="m_section-title">ホームページ制作事業</h2>
+            <p class="m_section-sub-title">ホームページの制作サービス</p>
+            <p class="m_section-txt">
+              個人や会社様のホームページを制作いたします。
+              <br>
+              「あなただけの理想のホームページ」を叶えます。
+            </p>
+            <div class="container">
+              <h2 class="sub-title mt-md-40 mt-xl-80">
+                <span class="slide-in downAnime slideAnimeDownUp">
+                  <span class="slide-in_inner downAnimeInner slideAnimeUpDown">
+                     Works 
+                  </span>
+                </span>
+              </h2>
+              <p class="wamei">
+                <span class="slide-in downAnime slideAnimeDownUp">
+                  <span class="slide-in_inner downAnimeInner slideAnimeUpDown">
+                    制作実績 
+                  </span>
+                </span>
+              </p>
+              <p class="setumei mb-0">
+                  Sawaの「制作実績」をご紹介します。
+                 <br class="d-none d-md-block">
+                 掲載されてない実績も多数ございますのでお気軽にお問い合わせください。
+              </p>
+              <div class="row g-md-48 g-lg-64 mt-35-70">
+                <div class="col-6 col-lg-4 mt-0">
+                  <a href="https://www.chest-jobs.com/" target="_blank" class="image_box hover">
+                    <div class="bgextend bgLRextendTrigger">
+                      <span>
+                        <figure>
+                          <div class="outer" style="background-image: url(images/チェストJobs.png);">
+                          </div>
+                        </figure>
+                      </span>
+                    </div>
+                    <p class="kigyoumei mt-0 mb-40 mt-md-16 md-md-64 mb-xl-72">
+                      求人掲載サービス <br>「チェストJobs」様
+                    </p>
+                  </a>
+                </div>
+                <div class="col-6 col-lg-4 mt-0">
+                  <a href="https://www.box-fit.space/" target="_blank" class="image_box hover">
+                    <div class="bgextend bgLRextendTrigger">
+                      <span>
+                        <figure>
+                          <div class="outer" style="background-image: url(images/ハコフィット.png);">
+                          </div>
+                        </figure>
+                      </span>
+                    </div>
+                    <p class="kigyoumei mt-0 mb-40 mt-md-16 md-md-64 mb-xl-72">
+                      完全個室型<br>トレーニングジム <br>「ハコフィット」様
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="front_corporate l_container-sm">
       <div class="l_contents">
         <h2 class="m_section-title">株式会社Sawaの無料キャリア相談</h2>
@@ -378,39 +449,6 @@ of Simple CSS Waves-->
         </ul>
       </div>
     </div>
-
-    <section class="section section--intro section--intro-webcreation l-harf-bg">
-      <div class="panel panel--service panel--reverse">
-        <div class="panel--service__body">
-          <h1 class="heading sa sa--lr fade03 show">
-            無人管理システム開発事業
-          </h1>
-          <p class="catch ming-font sa sa--lr fade03 show">
-            無人で管理できるように
-            <br>
-            オンラインでの管理ノウハウを共有し、
-            <br>
-            <span class="default-font yellow-color">
-              スマートロックと業務システムを提供します。
-            </span>
-          </p>
-          <!-- <p class="text sa sa--lr fade03 show">
-            クライアントとユーザーに喜びの体験と、
-            <br class="xs-hide">
-            本質を見抜いたコンサルタント力で、
-            <br class="xs-hide">
-            Webと貴社の未来価値を高めます。
-          </p> -->
-          <img src="https://thumb.photo-ac.com/12/122901a6b94e55f0b89312cff116215a_t.jpeg" alt="" class="sa sa--lr fade03 show">
-        </div>
-        <div class="panel--service__image-wrapper sa sa--lr fade01 show">
-          <picture>
-            <source media="(max-width: 1024px)" srcset="">
-            <img src="" alt="">
-          </picture>
-        </div>
-      </div>
-    </section>
     <br>
     <section class="detail_box">
       <h3>会社情報</h3>
@@ -548,3 +586,201 @@ of Simple CSS Waves-->
   ></script>
 </body>
 </html>
+<style>
+  .container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)*.5);
+    padding-left: calc(var(--bs-gutter-x)*.5);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container h2 {
+    text-align: justify;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  div:not(.row)>*:first-child {
+    margin-top: 0;
+  }
+
+  .sub-title {
+    font-size: clamp(-0.25rem, 2rem + 2.27vw, 5rem);
+    letter-spacing: -1px;
+    color: #375e82;
+    margin-bottom: 0;
+  }
+
+  .slideAnimeDownUp {
+    animation-name: slideTextY100;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    /* opacity: 0; */
+  }
+
+  .slide-in {
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .slideAnimeUpDown {
+    animation-name: slideTextY-100;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    /* opacity: 0; */
+  }
+
+  .slide-in_inner {
+    display: inline-block;
+  }
+
+  p.wamei {
+    font-size: 14px;
+    letter-spacing: 1.96px;
+    color: #375e82;
+  }
+
+  p.setumei {
+    color: #375e82;
+    font-size: 15px;
+    line-height: 36px;
+    letter-spacing: 1.92px;
+    margin-top: clamp(1.875rem, 1.42rem + 2.27vw, 3.125rem);
+  }
+
+  .mb-0 {
+    margin-bottom: 0px !important;
+  }
+
+  .d-none {
+    display: none !important;
+  }
+
+  .mt-35-70 {
+    margin-top: clamp(1.875rem, 1.42rem + 3vw, 4rem) !important;
+  }
+
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    flex-wrap: wrap;
+    margin-right: calc(-0.5*var(--bs-gutter-x));
+    margin-left: calc(-0.5*var(--bs-gutter-x));
+  }
+
+  .mt-0 {
+    margin-top: 0px !important;
+  }
+
+  .col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .row>* {
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)*.5);
+    padding-left: calc(var(--bs-gutter-x)*.5);
+  }
+
+  div:not(.row)>*:last-child {
+    margin-bottom: 0;
+  }
+
+  .hover {
+    position: relative;
+  }
+
+  .bgextend {
+    box-sizing: border-box;
+  }
+
+  .bgLRextendTrigger {
+    /* opacity: 0; */
+  }
+
+  .bgextend {
+    animation-name: bgextendAnimeBase;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hover figure {
+    position: relative;
+    overflow: hidden;
+  }
+
+  figure {
+    margin: 0 0 1rem;
+  }
+
+  .hover figure::before {
+    display: block;
+    content: "";
+    position: absolute;
+    left: -30%;
+    top: -400%;
+    width: 230%;
+    height: 250%;
+    transform: rotate(-0deg);
+    background: rgba(82, 108, 120, 0.2);
+    transition: 0.3s;
+    z-index: 1;
+  }
+
+  .hover figure .outer {
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+  }
+
+  .outer {
+    min-height: 150px;
+  }
+
+  .outer {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .outer::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 70.7070707071%;
+  }
+
+  .hover figure::after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: -30%;
+    top: -260%;
+    width: 300%;
+    height: 250%;
+    transform: rotate(-0deg);
+    background: rgba(82, 108, 120, 0.4);
+    transition: 0.5s;
+    z-index: 2;
+  }
+
+  .kigyoumei {
+    font-size: clamp(0.75rem, 0.682rem + 0.34vw, 0.938rem);
+    line-height: 1.5;
+  }
+
+  .mb-40 {
+    margin-bottom: 40px !important;
+  }
+
+  .mt-0 {
+    margin-top: 0px !important;
+  }
+</style>
